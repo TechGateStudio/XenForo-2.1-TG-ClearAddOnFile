@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="tgcaf_delete_files" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Delete files]]></phrase>
+  <phrase title="tgcaf_hashes_file_for_this_add_on_missing" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[The hashes.json file for this add-on is missing, so the add-on files outside the main add-on folder will not be deleted.]]></phrase>
+  <phrase title="tgcaf_please_confirm_that_you_want_to_delete_following_add_on" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Please confirm the deletion of the following add-on files]]></phrase>
+  <phrase title="tgcaf_the_files_of_this_add_on_can_not_be_deleted" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[The files of this add-on can not be deleted.]]></phrase>
+  <phrase title="tgcaf_we_detected_some_errors_when_trying_to_delete_the_files_of_the_following_add_on" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[We detected some errors when trying to delete the files of the following add-on]]></phrase>
+</phrases>

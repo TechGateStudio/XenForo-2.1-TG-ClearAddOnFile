@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="tgcaf_addon_delete_files" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[<xf:title>{{ phrase('confirm_action') }}</xf:title>
+
+<xf:form action="{{ link('add-ons/deletefiles', $addOn) }}" class="block">
+
+	<div class="block-container">
+		<div class="block-body">
+			<xf:inforow rowtype="confirm">
+				<xf:if is="$errors">
+					{{ phrase('tgcaf_we_detected_some_errors_when_trying_to_delete_the_files_of_the_following_add_on:') }}
+				<xf:else />
+					{{ phrase('tgcaf_please_confirm_that_you_want_to_delete_following_add_on:') }}
+				</xf:if>
+				<strong>{$addOn.title} {$addOn.version_string}</strong>
+			</xf:inforow>
+		</div>
+
+		<xf:macro template="addon_action_macros" name="summary"
+			arg-errors="{$errors}"
+			arg-warnings="{$warnings}" />
+
+		<xf:macro template="addon_action_macros" name="action"
+			arg-errors="{$errors}"
+			arg-warnings="{$warnings}"
+			arg-submit="{{ phrase('delete') }}" />
+	</div>
+
+	<xf:redirect />
+
+</xf:form>]]></template>
+</templates>

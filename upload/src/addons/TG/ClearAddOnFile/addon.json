@@ -1,0 +1,16 @@
+{
+    "legacy_addon_id": "",
+    "title": "[TG] Clear AddOn File",
+    "description": "Deleting add-on files.",
+    "version_id": 1000030,
+    "version_string": "1.0.0 Beta",
+    "dev": "TechGate Studio",
+    "dev_url": "https://tgstudio.ru",
+    "faq_url": "",
+    "support_url": "https://tgstudio.ru/resources/2/",
+    "extra_urls": {
+        "Spark108": "https://spark108.ru"
+    },
+    "require": [],
+    "icon": "fa-trash"
+}

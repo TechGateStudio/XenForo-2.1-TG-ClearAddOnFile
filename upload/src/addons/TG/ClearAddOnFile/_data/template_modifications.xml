@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="admin" template="addon_list_macros" modification_key="tgcaf_addon_list_macros_add_button" description="Add button delete for add-on item." execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:elseif is="$addOn.canInstall()" />]]></find>
+    <replace><![CDATA[$0
+<xf:button href="{{ link('add-ons/deletefiles', $addOn) }}" overlay="true">
+	{{ phrase('tgcaf_delete_files') }}
+</xf:button>]]></replace>
+  </modification>
+</template_modifications>
